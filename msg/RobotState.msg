@@ -1,3 +1,3 @@
 Header header
 
-geometry_msgs/PoseWithCovarianceStamped[5] robotPose
+geometry_msgs/PoseWithCovarianceStamped[] robotPose

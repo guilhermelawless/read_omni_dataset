@@ -2,11 +2,5 @@ Header header
 read_omni_dataset/BallData orangeBall3DGTposition
 string LeftFilename
 string RightFilename
-bool foundOMNI4
-bool foundOMNI3
-bool foundOMNI1
-bool foundOMNI5
-geometry_msgs/PoseWithCovariance poseOMNI4
-geometry_msgs/PoseWithCovariance poseOMNI3
-geometry_msgs/PoseWithCovariance poseOMNI1
-geometry_msgs/PoseWithCovariance poseOMNI5
+bool[] foundOMNI
+geometry_msgs/PoseWithCovariance[] poseOMNI
