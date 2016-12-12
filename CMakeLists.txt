@@ -72,5 +72,5 @@ add_library(read_omni_dataset src/read_omni_dataset.cpp)
 target_link_libraries(read_omni_dataset ${catkin_LIBRARIES} ${rosbag_LIBRARIES})
 
 #add_executable(read_omni_dataset_node src/read_omni_dataset.cpp)
-#add_dependencies(read_omni_dataset read_omni_dataset_generate_messages_cpp)
+add_dependencies(read_omni_dataset read_omni_dataset_generate_messages_cpp)
 #target_link_libraries(read_omni_dataset_node ${catkin_LIBRARIES} ${rosbag_LIBRARIES} read_omni_dataset)
